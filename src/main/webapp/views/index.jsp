@@ -65,8 +65,8 @@
                 </button>
             </div>
             <div class="em_brand">
-                <a href="index.html">
-                    <img src="/assets/img/logo.jpg" alt="" style="width: 120px">
+                <a href="/index">
+                    <img src="/assets/img/logo.jpg" alt="" style="width: 100px; height:50px">
                 </a>
             </div>
             <!-- 종모양-->
@@ -288,28 +288,28 @@
                             </div>
                         </div>
                     </div>
-                    <div class="np_balanceDefault emBlock__border">
-                        <div class="txt">
-                            <span class="title_sm">My Balance</span>
-                            <h3>95.00 <span>USD</span></h3>
-                            <p>Exp on Jan 15, 2021</p>
-                        </div>
-                        <div class="npRight">
-                            <a href="page-add-balance.html" class="btn">
-                                <svg id="Iconly_Bulk_Plus" data-name="Iconly/Bulk/Plus"
-                                     xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                                    <g id="Plus" transform="translate(1.667 1.667)">
-                                        <path id="Path_34200"
-                                              d="M12.222,0H4.444C1.607,0,0,1.607,0,4.444v7.778c0,2.83,1.6,4.444,4.444,4.444h7.778c2.837,0,4.444-1.615,4.444-4.444V4.444C16.667,1.607,15.059,0,12.222,0Z"
-                                              fill="#fff" opacity="0.4" />
-                                        <path id="Path_34201"
-                                              d="M6.1,3.924H3.958V6.047a.625.625,0,0,1-1.249,0V3.924H.566a.625.625,0,0,1,0-1.245H2.7V.561a.632.632,0,0,1,1.256,0V2.679H6.1a.625.625,0,0,1,0,1.245Z"
-                                              transform="translate(5 5)" fill="#fff" />
-                                    </g>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
+<%--                    <div class="np_balanceDefault emBlock__border">--%>
+<%--                        <div class="txt">--%>
+<%--                            <span class="title_sm">My Balance</span>--%>
+<%--                            <h3>95.00 <span>USD</span></h3>--%>
+<%--                            <p>Exp on Jan 15, 2021</p>--%>
+<%--                        </div>--%>
+<%--                        <div class="npRight">--%>
+<%--                            <a href="page-add-balance.html" class="btn">--%>
+<%--                                <svg id="Iconly_Bulk_Plus" data-name="Iconly/Bulk/Plus"--%>
+<%--                                     xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">--%>
+<%--                                    <g id="Plus" transform="translate(1.667 1.667)">--%>
+<%--                                        <path id="Path_34200"--%>
+<%--                                              d="M12.222,0H4.444C1.607,0,0,1.607,0,4.444v7.778c0,2.83,1.6,4.444,4.444,4.444h7.778c2.837,0,4.444-1.615,4.444-4.444V4.444C16.667,1.607,15.059,0,12.222,0Z"--%>
+<%--                                              fill="#fff" opacity="0.4" />--%>
+<%--                                        <path id="Path_34201"--%>
+<%--                                              d="M6.1,3.924H3.958V6.047a.625.625,0,0,1-1.249,0V3.924H.566a.625.625,0,0,1,0-1.245H2.7V.561a.632.632,0,0,1,1.256,0V2.679H6.1a.625.625,0,0,1,0,1.245Z"--%>
+<%--                                              transform="translate(5 5)" fill="#fff" />--%>
+<%--                                    </g>--%>
+<%--                                </svg>--%>
+<%--                            </a>--%>
+<%--                        </div>--%>
+<%--                    </div>--%>
                 </div>
                 <div class="modal-body">
                     <ul class="nav flex-column -active-links">

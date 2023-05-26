@@ -20,27 +20,27 @@
           content="bootstrap 4, mobile template, 404, chat, about, cordova, phonegap, mobile, html, ecommerce, shopping, store, delivery, wallet, banking, education, jobs, careers, distance learning" />
 
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="assets/img/favicon/32.png" sizes="32x32">
-    <link rel="apple-touch-icon" href="assets/img/favicon/favicon192.png">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/assets/img/favicon/favicon192.png">
 
     <!-- CSS Libraries-->
     <!-- bootstrap v4.6.0 -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <!--
         theiconof v3.0
         https://www.theiconof.com/search
      -->
-    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="/assets/css/icons.css">
     <!-- Remix Icon -->
-    <link rel="stylesheet" href="assets/css/remixicon.css">
+    <link rel="stylesheet" href="/assets/css/remixicon.css">
     <!-- Swiper 6.4.11 -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
     <!-- Owl Carousel v2.3.4 -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
     <!-- normalize.css v8.0.1 -->
-    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
 
     <!-- manifest meta -->
     <link rel="manifest" href="_manifest.json" />
@@ -67,7 +67,7 @@
         </div>
         <div class="em_brand">
             <a href="index.html">
-                <img src="assets/img/logo.jpg" alt="" style="width: 85px; height:50px; margin-top: 5px">
+                <img src="/assets/img/logo.jpg" alt="" style="width: 85px; height:50px; margin-top: 5px">
             </a>
         </div>
         <div class="em_side_right">
@@ -268,7 +268,7 @@
                         <div class="media">
                             <a href="page-profile.html">
                                 <!-- You can use an image -->
-                                <!-- <img class="_imgUser" src="assets/img/person.png" alt=""> -->
+                                <!-- <img class="_imgUser" src="/assets/img/person.png" alt=""> -->
                                 <div class="letter bg-yellow">
                                     <span>c</span>
                                 </div>
@@ -736,26 +736,26 @@
 </div>
 
 <!-- jquery -->
-<script src="assets/js/jquery-3.6.0.js"></script>
+<script src="/assets/js/jquery-3.6.0.js"></script>
 <!-- popper.min.js 1.16.1 -->
-<script src="assets/js/popper.min.js"></script>
+<script src="/assets/js/popper.min.js"></script>
 <!-- bootstrap.js v4.6.0 -->
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
 
 <!-- Owl Carousel v2.3.4 -->
-<script src="assets/js/vendor/owl.carousel.min.js"></script>
+<script src="/assets/js/vendor/owl.carousel.min.js"></script>
 <!-- Swiper 6.4.11 -->
-<script src="assets/js/vendor/swiper-bundle.min.js"></script>
+<script src="/assets/js/vendor/swiper-bundle.min.js"></script>
 <!-- sharer 0.4.0 -->
-<script src="assets/js/vendor/sharer.js"></script>
+<script src="/assets/js/vendor/sharer.js"></script>
 <!-- short-and-sweet v1.0.2 - Accessible character counter for input elements -->
-<script src="assets/js/vendor/short-and-sweet.min.js"></script>
+<script src="/assets/js/vendor/short-and-sweet.min.js"></script>
 <!-- jquery knob -->
-<script src="assets/js/vendor/jquery.knob.min.js"></script>
+<script src="/assets/js/vendor/jquery.knob.min.js"></script>
 <!-- main.js -->
-<script src="assets/js/main.js" defer></script>
+<script src="/assets/js/main.js" defer></script>
 <!-- PWA app service registration and works js -->
-<script src="assets/js/pwa-services.js"></script>
+<script src="/assets/js/pwa-services.js"></script>
 </body>
 
 </html>

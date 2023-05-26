@@ -9,13 +9,13 @@
       <div class="title_welcome">
           <span class="color-secondary size-16 weight-500">
               Hi, there !
-              <img class="w-20 h-20" src="assets/img/1f590.png" alt="">
+              <img class="w-20 h-20" src="/assets/img/1f590.png" alt="">
           </span>
         <br>
 
 
         <span class="color-black">로그인 후 이용해주세요</span>
-        <a href="/login" class="btn bg-primary rounded-pill btn__default" style="width: 70PX; height: 30PX">
+        <a href="/cust/login" class="btn bg-primary rounded-pill btn__default" style="width: 70PX; height: 30PX">
           <span class="color-white">login</span>
 
         </a>
@@ -160,7 +160,7 @@
         <div class="item em_item">
           <a href="#" class="link_service text-decoration-none">
             <div class="cover_img">
-              <img src="assets/img/card02.jpg" alt="">
+              <img src="/assets/img/card02.jpg" alt="">
             </div>
             <div class="txt">
               <span class="type">Roaming Lite</span>
@@ -177,7 +177,7 @@
         <div class="item em_item">
           <a href="#" class="link_service text-decoration-none">
             <div class="cover_img">
-              <img src="assets/img/card01.jpg" alt="">
+              <img src="/assets/img/card01.jpg" alt="">
             </div>
             <div class="txt">
               <span class="type">SuperNet Unlimited</span>
@@ -194,7 +194,7 @@
         <div class="item em_item">
           <a href="#" class="link_service text-decoration-none">
             <div class="cover_img">
-              <img src="assets/img/card03.jpg" alt="">
+              <img src="/assets/img/card03.jpg" alt="">
             </div>
             <div class="txt">
               <span class="type">PowerNet</span>
@@ -300,17 +300,17 @@
       <div class="owl-carousel owl-theme em-owlCentred em_owl_swipe">
         <div class="item em_item">
           <a href="#" class="em_cover_img text-decoration-none">
-            <img src="assets/img/00ads.jpg" alt="">
+            <img src="/assets/img/00ads.jpg" alt="">
           </a>
         </div>
         <div class="item em_item">
           <a href="#" class="em_cover_img text-decoration-none">
-            <img src="assets/img/002ads.jpg" alt="">
+            <img src="/assets/img/002ads.jpg" alt="">
           </a>
         </div>
         <div class="item em_item">
           <a href="#" class="em_cover_img text-decoration-none">
-            <img src="assets/img/003ads.jpg" alt="">
+            <img src="/assets/img/003ads.jpg" alt="">
           </a>
         </div>
       </div>

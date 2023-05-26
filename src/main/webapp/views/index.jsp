@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -66,11 +67,11 @@
         </div>
         <div class="em_brand">
             <a href="index.html">
-                <img src="assets/img/logo-b.svg" alt="">
+                <img src="assets/img/logo.jpg" alt="" style="width: 85px; height:50px; margin-top: 5px">
             </a>
         </div>
         <div class="em_side_right">
-            <a href="page-wishlist.html" class="btn justify-content-center relative">
+            <a href="/notification" class="btn justify-content-center relative">
                 <svg class="color-secondary" id="Iconly_Two-tone_Notification"
                      data-name="Iconly/Two-tone/Notification" xmlns="http://www.w3.org/2000/svg" width="24"
                      height="24" viewBox="0 0 24 24">
@@ -133,7 +134,7 @@
                 </a>
             </div>
             <div class="item_link">
-                <a href="/ticket" class="btn btn_navLink">
+                <a href="/ticket_list" class="btn btn_navLink">
                     <div class="icon_current">
                         <svg id="Iconly_Curved_More_Circle" data-name="Iconly/Curved/More Circle"
                              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">

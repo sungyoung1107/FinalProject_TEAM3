@@ -66,17 +66,28 @@
             </div>
             <div class="em_brand">
                 <a href="index.html">
-                    <img src="/assets/img/logo-b.svg" alt="">
+                    <img src="/assets/img/logo.jpg" alt="" style="width: 120px">
                 </a>
             </div>
+            <!-- 종모양-->
             <div class="em_side_right">
-                <button class="btn rounded-circle share-button bg-transparent margin-r-10" data-toggle="modal"
-                        data-target="#mdllButtons_share">
-                    <i class="ri-share-forward-box-line"></i>
-                </button>
-                <button type="button" class="btn btn_meunBell" id="saerch-On-header">
-                    <i class="icon-bell"></i>
-                </button>
+                <a href="page-activities-2.html" class="btn justify-content-center relative color_svg">
+                    <svg id="Iconly_Two-tone_Notification" data-name="Iconly/Two-tone/Notification"
+                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <g id="Notification" transform="translate(3.5 2)">
+                            <path id="Path_425"
+                                  d="M0,11.787v-.219A3.6,3.6,0,0,1,.6,9.75,4.87,4.87,0,0,0,1.8,7.436c0-.666,0-1.342.058-2.009C2.155,2.218,5.327,0,8.461,0h.078c3.134,0,6.306,2.218,6.617,5.427.058.666,0,1.342.049,2.009A4.955,4.955,0,0,0,16.4,9.759a3.506,3.506,0,0,1,.6,1.809v.209a3.566,3.566,0,0,1-.844,2.39A4.505,4.505,0,0,1,13.3,15.538a45.078,45.078,0,0,1-9.615,0A4.554,4.554,0,0,1,.835,14.167,3.6,3.6,0,0,1,0,11.787Z"
+                                  transform="translate(0 0)" fill="none" stroke="#200e32" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"></path>
+                            <path id="Path_421"
+                                  d="M0,0A3.061,3.061,0,0,0,2.037,1.127,3.088,3.088,0,0,0,4.288.5,2.886,2.886,0,0,0,4.812,0"
+                                  transform="translate(6.055 18.852)" fill="none" stroke="#200e32"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                                  stroke-width="1.5" opacity="0.4"></path>
+                        </g>
+                    </svg>
+                    <span class="flashCircle"></span>
+                </a>
             </div>
         </header>
         <!-- 헤더 끝-->
@@ -121,7 +132,7 @@
                             </g>
                         </svg>
                     </div>
-                    <div class="txt__tile">마이페이지</div>
+                    <div class="txt__tile">수업예약</div>
                 </a>
             </div>
             <div class="item_link">
@@ -204,7 +215,7 @@
                         </svg>
                     </div>
                     <div class="items_basket_circle">2</div>
-                    <div class="txt__tile">홈</div>
+                    <div class="txt__tile">조인 헬쓱</div>
                 </a>
             </div>
             <div class="item_link">
@@ -227,7 +238,7 @@
 
                     </div>
 
-                    <div class="txt__tile">조인 헬쓱</div>
+                    <div class="txt__tile">마이페이지</div>
                 </a>
             </div>
         </div>

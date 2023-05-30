@@ -66,7 +66,7 @@
             </button>
         </div>
         <div class="em_brand">
-            <a href="index.html">
+            <a href="/">
                 <img src="/assets/img/logo.jpg" alt="" style="width: 85px; height:50px; margin-top: 5px">
             </a>
         </div>
@@ -130,7 +130,7 @@
                             </g>
                         </svg>
                     </div>
-                    <div class="txt__tile" >수업예약</div>
+                    <div class="txt__tile"  style="width: 60px">수업예약</div>
                 </a>
             </div>
             <div class="item_link">
@@ -160,7 +160,7 @@
                         </svg>
                     </div>
 
-                    <div class="txt__tile">이용권구매</div>
+                    <div class="txt__tile"  style="width: 60px">이용권구매</div>
                 </a>
             </div>
             <div class="item_link">
@@ -210,7 +210,7 @@
                         </svg>
                     </div>
                     <div class="items_basket_circle">2</div>
-                    <div class="txt__tile">조인헬쓱</div>
+                    <div class="txt__tile" style="width: 60px">조인헬쓱</div>
                 </a>
             </div>
             <div class="item_link">
@@ -232,7 +232,7 @@
 
                     </div>
 
-                    <div class="txt__tile">마이페이지</div>
+                    <div class="txt__tile"  style="width: 60px">마이페이지</div>
                 </a>
             </div>
         </div>

@@ -757,6 +757,9 @@
 <script src="/assets/js/main.js" defer></script>
 <!-- PWA app service registration and works js -->
 <script src="/assets/js/pwa-services.js"></script>
+<!-- 성영 추가 -->
+<script src="/assets/js/userjs/register.js"></script>
+<script src="/assets/js/userjs/login.js"></script>
 </body>
 
 </html>

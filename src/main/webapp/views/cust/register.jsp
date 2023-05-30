@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
+<!-- 성영 추가 -->
+<script src="/assets/js/userjs/register.js"></script>
+<script src="/assets/js/userjs/login.js"></script>
 <script>
     $(document).ready(function () {
         register_form.init();

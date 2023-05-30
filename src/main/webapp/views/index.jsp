@@ -41,10 +41,9 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <!-- normalize.css v8.0.1 -->
     <link rel="stylesheet" href="/assets/css/normalize.css">
+
     <!-- manifest meta -->
     <link rel="manifest" href="_manifest.json" />
-    <!-- jquery(위치변경) -->
-    <script src="/assets/js/jquery-3.6.0.js"></script>
 </head>
 
 
@@ -736,6 +735,8 @@
 
 </div>
 
+<!-- jquery -->
+<script src="/assets/js/jquery-3.6.0.js"></script>
 <!-- popper.min.js 1.16.1 -->
 <script src="/assets/js/popper.min.js"></script>
 <!-- bootstrap.js v4.6.0 -->
@@ -755,9 +756,6 @@
 <script src="/assets/js/main.js" defer></script>
 <!-- PWA app service registration and works js -->
 <script src="/assets/js/pwa-services.js"></script>
-<!-- 성영 추가 -->
-<script src="/assets/js/userjs/register.js"></script>
-<script src="/assets/js/userjs/login.js"></script>
 </body>
 
 </html>

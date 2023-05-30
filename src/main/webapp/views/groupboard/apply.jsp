@@ -91,11 +91,38 @@
 <%--                        <i class="tio-chevron_right"></i>--%>
 <%--                    </div>--%>
 <%--                </a>--%>
-                <a href="/groupboard" style="background-color: #7674DB; color: white"
-                   class="btn rounded-10 h-48 min-w-130 size-14 color-secondary border-snow border-solid d-inline-flex align-items-center justify-content-center">
-                    확인했어요
-                </a>
             </div>
+                <div class="emfo_button __withIcon">
+                <a href="/groupboard" style="margin-left: 50px"
+                   class="btn btn__icon bg-primary color-white min-w-175 text-left justify-content-between">
+                    확인했어요
+                    <div class="icon">
+                        <svg id="Iconly_Light_Arrow_-_Right_Square"
+                             data-name="Iconly/Light/Arrow - Right Square"
+                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                             viewBox="0 0 24 24">
+                            <g id="Arrow_-_Right_Square" data-name="Arrow - Right Square"
+                               transform="translate(2 22) rotate(-90)">
+                                <path id="Stroke_1" data-name="Stroke 1"
+                                      d="M4.916,18.5h8.669c3.02,0,4.915-2.139,4.915-5.166V5.166C18.5,2.139,16.615,0,13.585,0H4.916C1.886,0,0,2.139,0,5.166v8.168C0,16.361,1.886,18.5,4.916,18.5Z"
+                                      transform="translate(0.75 0.75)" fill="none" stroke="#200e32"
+                                      stroke-linecap="round" stroke-linejoin="round"
+                                      stroke-miterlimit="10" stroke-width="1.5" opacity="0.4"></path>
+                                <path id="Stroke_3" data-name="Stroke 3" d="M.5,8.172V0"
+                                      transform="translate(9.5 5.914)" fill="none" stroke="#200e32"
+                                      stroke-linecap="round" stroke-linejoin="round"
+                                      stroke-miterlimit="10" stroke-width="1.5"></path>
+                                <path id="Stroke_5" data-name="Stroke 5" d="M7.5,0,3.748,3.764,0,0"
+                                      transform="translate(6.252 10.322)" fill="none" stroke="#200e32"
+                                      stroke-linecap="round" stroke-linejoin="round"
+                                      stroke-miterlimit="10" stroke-width="1.5"></path>
+                            </g>
+                        </svg>
+
+                    </div>
+                </a>
+                </div>
+
         </section>
 
     </div>

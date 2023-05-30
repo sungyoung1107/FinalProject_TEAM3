@@ -378,6 +378,8 @@
 </section>
 <!-- End. em_swiper_products -->
 
+
+
 <!-- Start em_swiper_products -->
 <section class="em_swiper_products emCoureses__grid pt-1 margin-b-20">
     <!-- em_title_swiper -->
@@ -602,8 +604,14 @@
 
         </div>
     </div>
+
 </section>
+<!-- 조인만들기 버튼 -->
+<div style="position: fixed; z-index:9999;  bottom: 100px; right: 50px">
+    <a href="/groupboard/makejoin"><img src="/img/chat.png" style="width:50px; height: 50px;" title="조인만들기" ></a>
+</div>
 <!-- End. em_swiper_products -->
+
 
 <!-- Modal로 보여지는 창 : mdllJobDetails -->
 <div class="modal transition-bottom screenFull defaultModal mdllJobs_details fade" id="mdllJobDetails"
@@ -785,9 +793,11 @@
                     </div>
 
                 </div><%-- 제목~내용 구간 끝. --%>
-            </div>
+
+                </div>
 
     </div>
+
 </div>
 </div>
 </div>

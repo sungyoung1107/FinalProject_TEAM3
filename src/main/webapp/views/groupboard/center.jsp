@@ -613,20 +613,22 @@
         <div class="modal-content">
             <div class="modal-header padding-l-20 padding-r-50">
                 <%-- 이미지 넣을 맨 상단 구간 --%>
-
-                <%-- 이미지 넣을 맨 상단 구간 --%>
-                <div class="absolute right-0 padding-r-20"><%-- 창닫기 아이콘  --%>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <i class="tio-clear"></i>
                     </button>
-                </div><%-- 창닫기 아이콘  --%>
+                <%-- 이미지 넣을 맨 상단 구간 --%>
+<%--                <div class="absolute right-0 padding-r-20">--%>
+                    <%-- 창닫기 아이콘  --%>
+
+<%--                </div>--%>
+            <%-- 창닫기 아이콘  --%>
             </div>
             <div class="modal-body p-0"><%-- 제목~내용 구간  --%>
                 <div id="wrapper">
 
                     <div id="content">
                                 <!-- Start emPage__detailsBlog -->
-                                <section class="emPage__detailsBlog" style="margin-top: 0">
+                                <section class="emPage__detailsBlog" style="margin-top: -100px">
                                     <div class="emheader_cover">
                                         <div class="cover">
                                             <img src="/assets/img/group2.jpg" alt="" style="height:40%" >

@@ -1,6 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<script>
+    $(document).ready(function () {
+        login_form.init();
+    });
+</script>
+
 <!-- Start main_haeder -->
 <header class="main_haeder header-sticky multi_item">
     <div class="em_side_right">
@@ -24,11 +30,11 @@
         </div>
     </div>
     <div class="em__body">
-        <form action="">
+        <form id="login_form">
             <div class="form-group with_icon">
                 <label>이메일 주소</label>
                 <div class="input_group">
-                    <input type="email" class="form-control" placeholder="example@mail.com" required>
+                    <input type="email" class="form-control" placeholder="example@mail.com" id="custEmail" name="custEmail" required>
                     <div class="icon">
                         <svg id="Iconly_Two-tone_Message" data-name="Iconly/Two-tone/Message"
                              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -51,7 +57,7 @@
             <div class="form-group with_icon mb-2" id="show_hide_password">
                 <label>패스워드</label>
                 <div class="input_group">
-                    <input type="password" class="form-control" placeholder="enter your password" required>
+                    <input type="password" class="form-control" placeholder="enter your password" id="custPwd" name="custPwd" required >
                     <div class="icon">
                         <svg id="Iconly_Two-tone_Password" data-name="Iconly/Two-tone/Password"
                              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -90,7 +96,7 @@
             </a>
         </div>
         <div style="text-align: center">
-            <a href="/" class="btn bg-primary color-white justify-content-center">Sign in</a>
+            <button type="button" class="btn bg-primary color-white justify-content-center" id="login_btn">로그인</button>
         </div>
     </div>
 <%--        <div class="em__footer"></div>--%>

@@ -7,18 +7,30 @@
     <!-- Start banner_swiper -->
     <section class="banner_swiper padding-t-70 bg-white">
       <div class="title_welcome">
-          <span class="color-secondary size-16 weight-500">
-              Hi, there !
-              <img class="w-20 h-20" src="/assets/img/1f590.png" alt="">
-          </span>
-        <br>
-
-
-        <span class="color-black">로그인 후 이용해주세요</span>
-        <a href="/cust/login" class="btn bg-primary rounded-pill btn__default" style="width: 70PX; height: 30PX">
-          <span class="color-white">login</span>
-
-        </a>
+        <c:choose>
+          <c:when test="${logincust == null}">
+                        <span class="color-secondary size-16 weight-500">Hi, there !
+                        <img class="w-20 h-20" src="/assets/img/1f590.png" alt="">
+                        </span>
+            <br>
+            <span class="color-black">로그인 후 이용해주세요</span>
+            <a href="/cust/login" class="btn bg-primary rounded-pill btn__default"
+               style="width: 70PX; height: 30PX">
+              <span class="color-white">login</span>
+            </a>
+          </c:when>
+          <c:otherwise>
+                        <span class="color-secondary size-16 weight-500">Hi, ${logincust.custName} 님!
+                        <img class="w-20 h-20" src="/assets/img/1f590.png" alt="">
+                        </span>
+            <br>
+            <span class="color-black">로그아웃</span>
+            <a href="/cust/logoutimpl" class="btn bg-primary rounded-pill btn__default"
+               style="width: 80PX; height: 30PX;">
+              <span class="color-white">logout</span>
+            </a>
+          </c:otherwise>
+        </c:choose>
       </div>
       <!-- dividar -->
       <div class="dividar"></div>

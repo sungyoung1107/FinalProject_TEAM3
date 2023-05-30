@@ -7,6 +7,8 @@
         height: 50%;
         border: #5d6072 solid 1px;
     }
+     .emPage__detailsBlog{border-radius: 30px 30px 30px 30px;}
+      .emheader_cover{border-radius: 30px 30px 30px 30px;}
 </style>
 <!-- header 구간  -->
 <jsp:include page="/views/header.jsp" />
@@ -239,9 +241,11 @@
     </div>
     <!-- Swiper -->
     <div class="owl-carousel owl-theme em-owlCentred em_owl_swipe">
-        <div class="item em_item">
-            <a href="#" class="em_cover_img text-decoration-none">
-                <img src="/assets/img/join1.jpg" alt="">
+        <div class="item em_item" >
+            <!-- a #mdllJobDetails 누르면 상세보기 기능 : 모달창으로 구현 -->
+            <a data-toggle="modal"
+               data-target="#mdllJobDetails" class="em_cover_img text-decoration-none">
+                <img src="/assets/img/join1.jpg" alt="" >
             </a>
             <div class="card-body">
                 <h6 class="card-title"><!-- 글제목 -->
@@ -271,6 +275,7 @@
                 </p>
             </div>
         </div>
+
         <div class="item em_item">
             <a href="#" class="em_cover_img text-decoration-none">
                 <img src="/assets/img/join3.jpg" alt="">
@@ -372,19 +377,19 @@
                                 <section class="emPage__detailsBlog" style="margin-top: -100px">
                                     <div class="emheader_cover">
                                         <div class="cover">
-                                            <img src="/assets/img/group2.jpg" alt="" style="height:40%" >
+                                            <img src="/assets/img/join1.jpg" alt="" style="height:450px" >
                                         </div>
                                         <div class="title">
-                                            <div class="em__header">
-                                            <h3 class="">그동안 필테만 쭉 해오다가, 첫 크로스핏 도전해여!<br>같이할 여성분 괌니다><</h3>
-                                            <div class="size-18 weight-600 color-primary">
+                                            <div class="size-18 weight-600 color-primary"style="text-align: right">
                                                 <span class="color-text"></span> 모집중
                                             </div>
+                                            <div class="em__header">
+                                            <h3 class="">같이 댕댕헬쓰 해욥🐶</h3>
                                             </div>
 
                                             <div class="item__auther emBlock__border">
                                                 <div class="item_person">
-                                                    <img src="/assets/img/group2.jpg" alt="">
+                                                    <img src="/assets/img/join1.jpg" alt="">
                                                     <h2>지니</h2>
                                                 </div>
                                                 <div class="sideRight">
@@ -438,15 +443,15 @@
                                             <h6>센터 내용</h6>
                                         </div>
                                         <ul class="item_list">
-                                            <li>성수 필라테스 | 서울 성수동</li>
+                                            <li>성수 피트니스 | 서울 성수동</li>
                                             <li>2023.6.30(토) 마감</li>
-                                            <li>모집 인원 1명 / 신청 인원 0명</li>
+                                            <li>모집 인원 2명 / 신청 인원 1명</li>
                                         </ul><hr>
                                         <div class="title">
                                             <h6>이용권 내용</h6>
                                         </div>
                                         <ul class="item_list">
-                                            <li>플라잉요가 2:1(20회)</li>
+                                            <li>헬스 이용권(3개월)</li>
                                             <li>560,000원 -> 498,000원</li>
                                         </ul><hr>
                                         <div class="title">

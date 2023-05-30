@@ -186,28 +186,29 @@
             <div class="item_link">
                 <a href="/groupboard" class="btn btn_navLink">
                     <div class="icon_current">
-                        <svg id="Iconly_Curved_Bag" data-name="Iconly/Curved/Bag" xmlns="http://www.w3.org/2000/svg"
-                             width="24" height="24" viewBox="0 0 24 24">
-                            <g id="Bag" transform="translate(2.95 2.55)">
-                                <path id="Stroke_1" data-name="Stroke 1" d="M8.659,4.32A4.33,4.33,0,0,0,0,4.3V4.32"
-                                      transform="translate(4.755 0)" fill="none" stroke="#9498ac"
+                        <svg id="Iconly_Two-tone_Chat" data-name="Iconly/Two-tone/Chat"
+                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g id="Chat" transform="translate(2 2)">
+                                <path id="Path"
+                                      d="M10.057,0A10,10,0,0,0,1.138,14.629l.2.39a1.3,1.3,0,0,1,.1,1,19.8,19.8,0,0,0-.715,2.324c0,.4.114.629.544.619A18.271,18.271,0,0,0,3.5,18.314a1.481,1.481,0,0,1,.954.057c.277.133.839.476.859.476A10,10,0,1,0,10.057,0Z"
+                                      transform="translate(0 0)" fill="none" stroke="#200e32"
                                       stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
                                       stroke-width="1.5" />
-                                <path id="Stroke_3" data-name="Stroke 3" d="M.523.5H.477"
-                                      transform="translate(11.5 8.324)" fill="none" stroke="#9498ac"
-                                      stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
-                                      stroke-width="1.5" />
-                                <path id="Stroke_5" data-name="Stroke 5" d="M.523.5H.477"
-                                      transform="translate(5.669 8.324)" fill="none" stroke="#9498ac"
-                                      stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
-                                      stroke-width="1.5" />
-                                <path id="Stroke_7" data-name="Stroke 7"
-                                      d="M9.084,14.934c-6.508,0-7.257-2.05-8.718-7.467C-1.1,2.033,1.841,0,9.084,0S19.268,2.033,17.8,7.467C16.341,12.884,15.592,14.934,9.084,14.934Z"
-                                      transform="translate(0 4.006)" fill="none" stroke="#9498ac"
-                                      stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
-                                      stroke-width="1.5" />
+                                <ellipse id="Oval" cx="0.477" cy="0.476" rx="0.477" ry="0.476"
+                                         transform="translate(4.81 9.524)" fill="#200e32" stroke="#200e32"
+                                         stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                                         stroke-width="1.5" opacity="0.4" />
+                                <ellipse id="Oval-2" data-name="Oval" cx="0.477" cy="0.476" rx="0.477"
+                                         ry="0.476" transform="translate(9.58 9.524)" fill="#200e32"
+                                         stroke="#200e32" stroke-linecap="round" stroke-linejoin="round"
+                                         stroke-miterlimit="10" stroke-width="1.5" opacity="0.4" />
+                                <ellipse id="Oval-3" data-name="Oval" cx="0.477" cy="0.476" rx="0.477"
+                                         ry="0.476" transform="translate(14.35 9.524)" fill="#200e32"
+                                         stroke="#200e32" stroke-linecap="round" stroke-linejoin="round"
+                                         stroke-miterlimit="10" stroke-width="1.5" opacity="0.4" />
                             </g>
                         </svg>
+
                     </div>
                     <div class="items_basket_circle">2</div>
                     <div class="txt__tile" style="width: 60px">조인헬쓱</div>

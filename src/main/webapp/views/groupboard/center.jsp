@@ -112,458 +112,233 @@
 <!-- End. emCategories__learning -->
 
 <!-- Start em_swiper_products -->
-<section class="em_swiper_products emCoureses__grid margin-b-20">
-    <!-- em_title_swiper -->
-    <div class="em_title_swiper">
-        <div class="txt">
-            <h5>성동구 조인</h5><!-- 입력 예 ${logincust} -->
-            <p>가장 최근에 만들어진 조인이에요</p>
+<%--관심지역에 오픈된 조인 : 슬라이드 --%>
+<!-- Start banner_swiper -->
+<section class="banner_swiper npSwiper__ads bg-white np_Package_ac padding-t-10 mt-0 padding-b-40">
+    <div class="title d-flex justify-content-between align-items-center padding-l-20 padding-r-20">
+        <div>
+            <h3 class="size-18 weight-500 color-secondary m-0">나의 관심지역에 개설된 조인</h3>
+            <p class="size-13 color-text m-0 pt-1">거리가 가까울 수록 포기와는 거리가 멀어져요!</p>
         </div>
-        <div class="item_link">
-            <a href="page-courses-learning.html">더보기</a>
-        </div>
+        <a href="#" class="d-block color-blue size-14 m-0 hover:color-blue">더보기</a>
     </div>
-    <div class="em_bodyCarousel padding-t-20">
-        <div class="owl-carousel owl-theme owlThemeCorses">
-            <!-- 조인들 -->
-            <div class="item">
-                <div class="em_itemCourse_grid"><!-- 이미지 클릭하면 모달로 조인 상세보기 페이지 보여주기 -->
-                    <div  class="card" data-toggle="modal"
-                         data-target="#mdllJobDetails">
-                        <div class="cover_card">
-                            <img src="/assets/img/group2.jpg" class="card-img-top" alt="img">
-                        </div>
-                        <!-- 조인 :요약내용 보기 -->
-                        <div class="card-body">
-                            <div class="head_card">
-                                <span>1일 전</span>
-                            </div>
-                            <h5 class="card-title">
-                                그동안 필테만 쭉 해오다가, 첫 크로스핏 도전해여! 같이할 여성분 괌><
-                            </h5>
-                            <p class="card-text">
-                                7.31 모집마감
-                            </p>
-                            <div class="card_user">
-                                <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
-                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                     viewBox="0 0 16 16">
-                                    <g id="Profile" transform="translate(2.667 1.333)">
-                                        <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
-                                                transform="translate(1.867)" fill="none" stroke="#7e848e"
-                                                stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
-                                        <path id="Path_33945"
-                                              d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
-                                              transform="translate(0 8.79)" fill="none" stroke="#7e848e"
-                                              stroke-linecap="round" stroke-linejoin="round"
-                                              stroke-miterlimit="10" stroke-width="1.2" />
-                                    </g>
-                                </svg>
-                                <span>진님이 3명을 기다리는 중</span>
-                            </div>
+    <!-- Swiper -->
+    <div class="owl-carousel owl-theme em-owlCentred em_owl_swipe">
+        <div class="item em_item">
+            <a href="#" class="em_cover_img text-decoration-none">
+                <img src="/assets/img/group5.jpg" alt="">
+            </a>
+            <div class="card-body">
+                <h6 class="card-title"><!-- 글제목 -->
+                    공동구매로 저렴하게 운동하면서 서로 자세 코칭해줄 분 찾아요~
+                </h6>
 
-                        </div>
-                        </div>
+                <div class="card_user">
+                    <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
+                         xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                         viewBox="0 0 16 16">
+                        <g id="Profile" transform="translate(2.667 1.333)">
+                            <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
+                                    transform="translate(1.867)" fill="none" stroke="#7e848e"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
+                            <path id="Path_33945"
+                                  d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
+                                  transform="translate(0 8.79)" fill="none" stroke="#7e848e"
+                                  stroke-linecap="round" stroke-linejoin="round"
+                                  stroke-miterlimit="10" stroke-width="1.2" />
+                        </g>
+                    </svg>
+                    <span style="font-size: small; color: #5d6072">1명 남음</span>
                 </div>
+                <p class="card-text" style="font-size: small; color: #5d6072">
+                    매머드휘트니스 | 06.30(목) 마감
+                </p>
             </div>
-            <!-- 조인들 -->
-            <div class="item">
-                <div class="em_itemCourse_grid">
-                    <a href="page-chapters-learning.html" class="card">
-                        <div class="cover_card">
-                            <img src="/assets/img/group3.jpg" class="card-img-top" alt="img">
-                        </div>
-                        <!-- 조인 : 요약내용 보기 -->
-                        <div class="card-body">
-                            <div class="head_card">
-                                <span>5일 전</span>
-                            </div>
-                            <h5 class="card-title">
-                                같이 레슨받구 롼딩 나갈 골린이 구해요!
-                            </h5>
-                            <p class="card-text">
-                                8.30 모집마감
-                            </p>
-                            <div class="card_user">
-                                <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
-                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                     viewBox="0 0 16 16">
-                                    <g id="Profile" transform="translate(2.667 1.333)">
-                                        <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
-                                                transform="translate(1.867)" fill="none" stroke="#7e848e"
-                                                stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
-                                        <path id="Path_33945"
-                                              d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
-                                              transform="translate(0 8.79)" fill="none" stroke="#7e848e"
-                                              stroke-linecap="round" stroke-linejoin="round"
-                                              stroke-miterlimit="10" stroke-width="1.2" />
-                                    </g>
-                                </svg>
-                                <span>지예님이 3명을 기다리는 중</span>
-                            </div>
+        </div>
+        <div class="item em_item">
+            <a href="#" class="em_cover_img text-decoration-none">
+                <img src="/assets/img/group4.jpg" alt="">
+            </a>
+            <div class="card-body">
+                <h6 class="card-title"><!-- 글제목 -->
+                    라인업 필테 2:1 같이하실 분 기다립니다아🙏🏻
+                </h6>
 
-                        </div>
-                    </a>
+                <div class="card_user">
+                    <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
+                         xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                         viewBox="0 0 16 16">
+                        <g id="Profile" transform="translate(2.667 1.333)">
+                            <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
+                                    transform="translate(1.867)" fill="none" stroke="#7e848e"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
+                            <path id="Path_33945"
+                                  d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
+                                  transform="translate(0 8.79)" fill="none" stroke="#7e848e"
+                                  stroke-linecap="round" stroke-linejoin="round"
+                                  stroke-miterlimit="10" stroke-width="1.2" />
+                        </g>
+                    </svg>
+                    <span style="font-size: small; color: #5d6072">1명 남음</span>
                 </div>
+                <p class="card-text" style="font-size: small; color: #5d6072">
+                    라인업 필라테스 | 06.30(목) 마감
+                </p>
             </div>
-            <!-- 조인들 -->
-            <div class="item">
-                <div class="em_itemCourse_grid">
-                    <a href="page-chapters-learning.html" class="card">
-                        <div class="cover_card">
-                            <img src="/assets/img/group4.jpg" class="card-img-top" alt="img">
-                        </div>
-                        <!-- 조인 : 요약내용 보기 -->
-                        <div class="card-body">
-                            <div class="head_card">
-                                <span>7일 전</span>
-                            </div>
-                            <h5 class="card-title">
-                                모든 것은 명상으로부터 시작됩니다.. 1개월 이벤트권 요가멤버 구해요..
-                            </h5>
-                            <p class="card-text">
-                                6.15 모집마감
-                            </p>
-                            <div class="card_user">
-                                <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
-                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                     viewBox="0 0 16 16">
-                                    <g id="Profile" transform="translate(2.667 1.333)">
-                                        <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
-                                                transform="translate(1.867)" fill="none" stroke="#7e848e"
-                                                stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
-                                        <path id="Path_33945"
-                                              d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
-                                              transform="translate(0 8.79)" fill="none" stroke="#7e848e"
-                                              stroke-linecap="round" stroke-linejoin="round"
-                                              stroke-miterlimit="10" stroke-width="1.2" />
-                                    </g>
-                                </svg>
-                                <span>성영님이 2명을 기다리는 중</span>
-                            </div>
+        </div>
+        <div class="item em_item">
+            <a href="#" class="em_cover_img text-decoration-none">
+                <img src="/assets/img/group7.jpg" alt="">
+            </a>
+            <div class="card-body">
+                <h6 class="card-title"><!-- 글제목 -->
+                    골프 디테일레슨 함께 받구 롼딩 가실래요?!🏌
+                </h6>
 
-                        </div>
-                    </a>
+                <div class="card_user">
+                    <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
+                         xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                         viewBox="0 0 16 16">
+                        <g id="Profile" transform="translate(2.667 1.333)">
+                            <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
+                                    transform="translate(1.867)" fill="none" stroke="#7e848e"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
+                            <path id="Path_33945"
+                                  d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
+                                  transform="translate(0 8.79)" fill="none" stroke="#7e848e"
+                                  stroke-linecap="round" stroke-linejoin="round"
+                                  stroke-miterlimit="10" stroke-width="1.2" />
+                        </g>
+                    </svg>
+                    <span style="font-size: small; color: #5d6072">3명 남음</span>
                 </div>
-            </div>
-            <!-- 조인들 -->
-            <div class="item">
-                <div class="em_itemCourse_grid">
-                    <a href="page-chapters-learning.html" class="card">
-                        <div class="cover_card">
-                            <img src="/assets/img/group5.jpg" class="card-img-top" alt="img">
-                        </div>
-                        <!-- 조인 : 요약내용 보기 -->
-                        <div class="card-body">
-                            <div class="head_card">
-                                <span>10일 전</span>
-                            </div>
-                            <h5 class="card-title">
-                                포기하지 않는 운동! 만들어봐요!! 평생운동할 분 찾습니다.
-                            </h5>
-                            <p class="card-text">
-                                6.15 모집마감
-                            </p>
-                            <div class="card_user">
-                                <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
-                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                     viewBox="0 0 16 16">
-                                    <g id="Profile" transform="translate(2.667 1.333)">
-                                        <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
-                                                transform="translate(1.867)" fill="none" stroke="#7e848e"
-                                                stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
-                                        <path id="Path_33945"
-                                              d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
-                                              transform="translate(0 8.79)" fill="none" stroke="#7e848e"
-                                              stroke-linecap="round" stroke-linejoin="round"
-                                              stroke-miterlimit="10" stroke-width="1.2" />
-                                    </g>
-                                </svg>
-                                <span>기현님이 5명을 기다리는 중</span>
-                            </div>
-
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!-- 조인들 -->
-            <div class="item">
-                <div class="em_itemCourse_grid">
-                    <a href="page-chapters-learning.html" class="card">
-                        <div class="cover_card">
-                            <img src="/assets/img/group6.jpg" class="card-img-top" alt="img">
-                        </div>
-                        <!-- 조인 : 요약내용 보기 -->
-                        <div class="card-body">
-                            <div class="head_card">
-                                <span>한달 전</span>
-                            </div>
-                            <h5 class="card-title">
-                                성수문화센터 새내기 수영할 회원 모집하는데 같이 합시다! 모닝미라클 도전
-                            </h5>
-                            <p class="card-text">
-                                6.30 모집마감
-                            </p>
-                            <div class="card_user">
-                                <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
-                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                     viewBox="0 0 16 16">
-                                    <g id="Profile" transform="translate(2.667 1.333)">
-                                        <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
-                                                transform="translate(1.867)" fill="none" stroke="#7e848e"
-                                                stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
-                                        <path id="Path_33945"
-                                              d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
-                                              transform="translate(0 8.79)" fill="none" stroke="#7e848e"
-                                              stroke-linecap="round" stroke-linejoin="round"
-                                              stroke-miterlimit="10" stroke-width="1.2" />
-                                    </g>
-                                </svg>
-                                <span>인보님이 2명을 기다리는 중</span>
-                            </div>
-
-                        </div>
-                    </a>
-                </div>
+                <p class="card-text" style="font-size: small; color: #5d6072">
+                    성수 카카오골프 | 06.30(목) 마감
+                </p>
             </div>
         </div>
     </div>
 </section>
-<!-- End. em_swiper_products -->
+<!-- End. banner_swiper -->
 
 
 
-<!-- Start em_swiper_products -->
-<section class="em_swiper_products emCoureses__grid pt-1 margin-b-20">
-    <!-- em_title_swiper -->
-    <div class="em_title_swiper">
-        <div class="txt">
-            <h5>나와 선호운동이 비슷한 사람들 조인</h5>
-            <p>필라테스를 선호하는 회원들이 만든 조인이에요</p>
+
+<%--선호운동 비슷한 조인 : 슬라이드 --%>
+<!-- Start banner_swiper -->
+<section class="banner_swiper npSwiper__ads bg-white np_Package_ac padding-t-10 mt-0 padding-b-40">
+    <div class="title d-flex justify-content-between align-items-center padding-l-20 padding-r-20">
+        <div>
+            <h3 class="size-18 weight-500 color-secondary m-0">선호운동이 비슷한 회원들이 만든 조인</h3>
+            <p class="size-13 color-text m-0 pt-1">운동효능감까지 Up해요!</p>
         </div>
-        <div class="item_link">
-            <a href="page-courses-learning.html">더보기</a>
+        <a href="#" class="d-block color-blue size-14 m-0 hover:color-blue">더보기</a>
+    </div>
+    <!-- Swiper -->
+    <div class="owl-carousel owl-theme em-owlCentred em_owl_swipe">
+        <div class="item em_item">
+            <a href="#" class="em_cover_img text-decoration-none">
+                <img src="/assets/img/join1.jpg" alt="">
+            </a>
+            <div class="card-body">
+                <h6 class="card-title"><!-- 글제목 -->
+                    같이 댕댕헬쓰 해욥🐶
+                </h6>
+
+            <div class="card_user">
+                <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
+                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                     viewBox="0 0 16 16">
+                    <g id="Profile" transform="translate(2.667 1.333)">
+                        <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
+                                transform="translate(1.867)" fill="none" stroke="#7e848e"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
+                        <path id="Path_33945"
+                              d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
+                              transform="translate(0 8.79)" fill="none" stroke="#7e848e"
+                              stroke-linecap="round" stroke-linejoin="round"
+                              stroke-miterlimit="10" stroke-width="1.2" />
+                    </g>
+                </svg>
+                <span style="font-size: small; color: #5d6072">2명 남음</span>
+            </div>
+                <p class="card-text" style="font-size: small; color: #5d6072">
+                    성수 피트니스 | 06.30(목) 마감
+                </p>
+            </div>
+        </div>
+        <div class="item em_item">
+            <a href="#" class="em_cover_img text-decoration-none">
+                <img src="/assets/img/join3.jpg" alt="">
+            </a>
+            <div class="card-body">
+                <h6 class="card-title"><!-- 글제목 -->
+                    😥메가 필라테스에서 라인 만들기 동참 막차타구 시퍼여😥
+                </h6>
+
+                <div class="card_user">
+                    <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
+                         xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                         viewBox="0 0 16 16">
+                        <g id="Profile" transform="translate(2.667 1.333)">
+                            <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
+                                    transform="translate(1.867)" fill="none" stroke="#7e848e"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
+                            <path id="Path_33945"
+                                  d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
+                                  transform="translate(0 8.79)" fill="none" stroke="#7e848e"
+                                  stroke-linecap="round" stroke-linejoin="round"
+                                  stroke-miterlimit="10" stroke-width="1.2" />
+                        </g>
+                    </svg>
+                    <span style="font-size: small; color: #5d6072">2명 남음</span>
+                </div>
+                <p class="card-text" style="font-size: small; color: #5d6072">
+                    메가 필라테스 | 06.30(목) 마감
+                </p>
+            </div>
+        </div>
+        <div class="item em_item">
+            <a href="#" class="em_cover_img text-decoration-none">
+                <img src="/assets/img/join2.jpg" alt="">
+            </a>
+            <div class="card-body">
+                <h6 class="card-title"><!-- 글제목 -->
+                    성수패스트 함께할 분! 매일 오운완 인증 서로 독려해봐여😳
+                </h6>
+
+                <div class="card_user">
+                    <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
+                         xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                         viewBox="0 0 16 16">
+                        <g id="Profile" transform="translate(2.667 1.333)">
+                            <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
+                                    transform="translate(1.867)" fill="none" stroke="#7e848e"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
+                            <path id="Path_33945"
+                                  d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
+                                  transform="translate(0 8.79)" fill="none" stroke="#7e848e"
+                                  stroke-linecap="round" stroke-linejoin="round"
+                                  stroke-miterlimit="10" stroke-width="1.2" />
+                        </g>
+                    </svg>
+                    <span style="font-size: small; color: #5d6072">1명 남음</span>
+                </div>
+                <p class="card-text" style="font-size: small; color: #5d6072">
+                    성수 패스트 | 06.30(목) 마감
+                </p>
+            </div>
         </div>
     </div>
-    <div class="em_bodyCarousel padding-t-20">
-        <div class="owl-carousel owl-theme owlThemeCorses">
-            <!-- 조인들 -->
-            <div class="item">
-                <div class="em_itemCourse_grid">
-                    <a href="page-chapters-learning.html" class="card">
-                        <div class="cover_card">
-                            <img src="/assets/img/group1.jpg" class="card-img-top" alt="img">
-                        </div>
-                        <!-- 조인 : 요약내용 보기 -->
-                        <div class="card-body">
-                            <div class="head_card">
-                                <span>4분 전</span>
-                            </div>
-                            <h5 class="card-title">
-                                성수필라테스 2:1수업 관심 있으신분 같이해요~
-                            </h5>
-                            <p class="card-text">
-                                6.30 모집마감
-                            </p>
-                            <div class="card_user">
-                                <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
-                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                     viewBox="0 0 16 16">
-                                    <g id="Profile" transform="translate(2.667 1.333)">
-                                        <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
-                                                transform="translate(1.867)" fill="none" stroke="#7e848e"
-                                                stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
-                                        <path id="Path_33945"
-                                              d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
-                                              transform="translate(0 8.79)" fill="none" stroke="#7e848e"
-                                              stroke-linecap="round" stroke-linejoin="round"
-                                              stroke-miterlimit="10" stroke-width="1.2" />
-                                    </g>
-                                </svg>
-                                <span>인보님이 1명을 기다리는 중</span>
-                            </div>
-
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!-- 조인들 -->
-            <div class="item">
-                <div class="em_itemCourse_grid">
-                    <a href="page-chapters-learning.html" class="card">
-                        <div class="cover_card">
-                            <img src="/assets/img/group6.jpg" class="card-img-top" alt="img">
-                        </div>
-                        <!-- 조인 : 요약내용 보기 -->
-                        <div class="card-body">
-                            <div class="head_card">
-                                <span>한달 전</span>
-                            </div>
-                            <h5 class="card-title">
-                                성수문화센터 새내기 수영할 회원 모집하는데 같이 합시다! 모닝미라클 도전
-                            </h5>
-                            <p class="card-text">
-                                6.30 모집마감
-                            </p>
-                            <div class="card_user">
-                                <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
-                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                     viewBox="0 0 16 16">
-                                    <g id="Profile" transform="translate(2.667 1.333)">
-                                        <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
-                                                transform="translate(1.867)" fill="none" stroke="#7e848e"
-                                                stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
-                                        <path id="Path_33945"
-                                              d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
-                                              transform="translate(0 8.79)" fill="none" stroke="#7e848e"
-                                              stroke-linecap="round" stroke-linejoin="round"
-                                              stroke-miterlimit="10" stroke-width="1.2" />
-                                    </g>
-                                </svg>
-                                <span>인보님이 2명을 기다리는 중</span>
-                            </div>
-
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!-- 조인들 -->
-            <div class="item">
-                <div class="em_itemCourse_grid">
-                    <a href="page-chapters-learning.html" class="card">
-                        <div class="cover_card">
-                            <img src="/assets/img/group1.jpg" class="card-img-top" alt="img">
-                        </div>
-                        <!-- 조인 : 요약내용 보기 -->
-                        <div class="card-body">
-                            <div class="head_card">
-                                <span>4분 전</span>
-                            </div>
-                            <h5 class="card-title">
-                                성수필라테스 2:1수업 관심 있으신분 같이해요~
-                            </h5>
-                            <p class="card-text">
-                                6.30 모집마감
-                            </p>
-                            <div class="card_user">
-                                <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
-                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                     viewBox="0 0 16 16">
-                                    <g id="Profile" transform="translate(2.667 1.333)">
-                                        <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
-                                                transform="translate(1.867)" fill="none" stroke="#7e848e"
-                                                stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
-                                        <path id="Path_33945"
-                                              d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
-                                              transform="translate(0 8.79)" fill="none" stroke="#7e848e"
-                                              stroke-linecap="round" stroke-linejoin="round"
-                                              stroke-miterlimit="10" stroke-width="1.2" />
-                                    </g>
-                                </svg>
-                                <span>인보님이 1명을 기다리는 중</span>
-                            </div>
-
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!-- 조인들 -->
-            <div class="item">
-                <div class="em_itemCourse_grid">
-                    <a href="page-chapters-learning.html" class="card">
-                        <div class="cover_card">
-                            <img src="/assets/img/group2.jpg" class="card-img-top" alt="img">
-                        </div>
-                        <!-- 조인 : 요약내용 보기 -->
-                        <div class="card-body">
-                            <div class="head_card">
-                                <span>1일 전</span>
-                            </div>
-                            <h5 class="card-title">
-                                그동안 필테만 쭉 해오다가, 첫 크로스핏 도전해여! 같이할 여성분 괌><
-                            </h5>
-                            <p class="card-text">
-                                7.31 모집마감
-                            </p>
-                            <div class="card_user">
-                                <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
-                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                     viewBox="0 0 16 16">
-                                    <g id="Profile" transform="translate(2.667 1.333)">
-                                        <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
-                                                transform="translate(1.867)" fill="none" stroke="#7e848e"
-                                                stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
-                                        <path id="Path_33945"
-                                              d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
-                                              transform="translate(0 8.79)" fill="none" stroke="#7e848e"
-                                              stroke-linecap="round" stroke-linejoin="round"
-                                              stroke-miterlimit="10" stroke-width="1.2" />
-                                    </g>
-                                </svg>
-                                <span>진님이 3명을 기다리는 중</span>
-                            </div>
-
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!-- 조인들 -->
-            <div class="item">
-                <div class="em_itemCourse_grid">
-                    <a href="page-chapters-learning.html" class="card">
-                        <div class="cover_card">
-                            <img src="/assets/img/group1.jpg" class="card-img-top" alt="img">
-                        </div>
-                        <!-- 조인 : 요약내용 보기 -->
-                        <div class="card-body">
-                            <div class="head_card">
-                                <span>4분 전</span>
-                            </div>
-                            <h5 class="card-title">
-                                성수필라테스 2:1수업 관심 있으신분 같이해요~
-                            </h5>
-                            <p class="card-text">
-                                6.30 모집마감
-                            </p>
-                            <div class="card_user">
-                                <svg id="Iconly_Two-tone_Profile" data-name="Iconly/Two-tone/Profile"
-                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                     viewBox="0 0 16 16">
-                                    <g id="Profile" transform="translate(2.667 1.333)">
-                                        <circle id="Ellipse_736" cx="3.185" cy="3.185" r="3.185"
-                                                transform="translate(1.867)" fill="none" stroke="#7e848e"
-                                                stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-miterlimit="10" stroke-width="1.2" opacity="0.4" />
-                                        <path id="Path_33945"
-                                              d="M0,2.011a1.477,1.477,0,0,1,.146-.647A2.7,2.7,0,0,1,2.026.284,11.191,11.191,0,0,1,3.588.064a16.7,16.7,0,0,1,2.923,0,11.32,11.32,0,0,1,1.562.22,2.593,2.593,0,0,1,1.879,1.08,1.513,1.513,0,0,1,0,1.3A2.567,2.567,0,0,1,8.073,3.738a10.478,10.478,0,0,1-1.562.226A17.214,17.214,0,0,1,4.131,4a2.71,2.71,0,0,1-.543-.037,10.282,10.282,0,0,1-1.556-.226A2.58,2.58,0,0,1,.146,2.664,1.519,1.519,0,0,1,0,2.011Z"
-                                              transform="translate(0 8.79)" fill="none" stroke="#7e848e"
-                                              stroke-linecap="round" stroke-linejoin="round"
-                                              stroke-miterlimit="10" stroke-width="1.2" />
-                                    </g>
-                                </svg>
-                                <span>인보님이 1명을 기다리는 중</span>
-                            </div>
-
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-
-
-        </div>
-    </div>
-
 </section>
+<!-- End. banner_swiper -->
+
 <!-- 조인만들기 버튼 -->
 <div style="position: fixed; z-index:20;  bottom: 100px; right: 50px">
     <a href="/groupboard/makejoin"><img src="/img/chat.png" style="width:50px; height: 50px;" title="조인만들기" ></a>
